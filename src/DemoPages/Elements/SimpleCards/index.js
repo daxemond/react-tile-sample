@@ -48,12 +48,31 @@ export function SimpleCard() {
     }, []);
 
     function more() {
-        setCard(c => [...c,{
-            title:'basic example',
-            description:'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo \
-            ligula \
-            eget dolor. Aenean massa.'
-        }]);
+        let list =
+            [
+                {
+                    key:cards.length+1,
+                    title:'basic example',
+                    description:'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo \
+                     ligula \
+                     eget dolor. Aenean massa.'
+                },
+                {
+                    key:cards.length+2,
+                    title:'basic example',
+                    description:'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo \
+                     ligula \
+                     eget dolor. Aenean massa.'
+                }, {
+                    key:cards.length+3,
+                    title:'basic example',
+                    description:'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo \
+                     ligula \
+                     eget dolor. Aenean massa.'
+                }
+            ];
+        
+        setCard(c => [...c,...list]);
         console.log(cards.length);
     }
 
