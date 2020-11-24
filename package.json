@@ -1,14 +1,9 @@
 {
-  "name": "architectui-react-theme-free",
+  "name": "react-tile-sample",
   "version": "1.0.0",
   "private": true,
-  "description": "ArchitectUI - Bootstrap 4 ReactJS Admin Dashboard Template FREE",
-  "author": "DashboardPack.com",
-  "homepage": "",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/DashboardPack/architectui-react-theme-free"
-  },
+  "description": "ArchitectUI - Bootstrap 4 ReactJS Admin Dashboard",
+  "homepage": "http://desmond-tam.github.io/react-tile-sample",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.15",
     "@fortawesome/free-brands-svg-icons": "^5.7.2",
