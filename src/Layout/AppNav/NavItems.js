@@ -2,7 +2,7 @@ export const MainNav = [
     {
         icon: 'pe-7s-rocket',
         label: 'Dashboard',
-        to: '#/elements/cards',
+        to: '#/dashboards/basic',
     },
 ];
 export const ComponentsNav = [
