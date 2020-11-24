@@ -2,7 +2,7 @@
   "name": "react-tile-sample",
   "version": "1.0.0",
   "private": true,
-  "description": "ArchitectUI - Bootstrap 4 ReactJS Admin Dashboard",
+  "description": "Bootstrap 4 ReactJS Admin Dashboard",
   "homepage": "http://desmond-tam.github.io/react-tile-sample",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.15",
